@@ -2,6 +2,8 @@
 
 * https://www.reddit.com/r/linux4noobs/comments/14cupwn/wireless_wifi_adapters_100_linux_compatible/
 
+* https://oemdrivers.com/network-comfast-cf-wu785ac
+* 
 ## Configuration
 
 ```
