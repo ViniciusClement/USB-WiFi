@@ -6,6 +6,15 @@
 
 * https://www.kali.org/docs/nethunter/wireless-cards/
 
+## Specification
+
+```
+COMFAST CF-WU785AC MT7612UN 1300Mbps Wireless Wifi Adapter
+ 
+1. External 4*6dBi high-gain antennas provides better wireless penetration even in complex wireless environments such as multi-blocking or multi-interference.
+2. Transmission rate upto 1300Mbps(5GHz: 867 Mbps, 2.4GHz:400Mbps), which greatly improves the overall wireless performance, faster speeds, and more enjoyable network enjoyment.
+```
+
 ## Install wireless-adapter
 
 * https://mirror2.openwrt.org/sources/compat-wireless-2010-06-28.tar.bz2
