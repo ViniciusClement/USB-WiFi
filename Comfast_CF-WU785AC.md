@@ -4,6 +4,8 @@
 
 * https://oemdrivers.com/network-comfast-cf-wu785ac
 
+* https://www.kali.org/docs/nethunter/wireless-cards/
+
 ## Install wireless-adapter
 
 * https://mirror2.openwrt.org/sources/compat-wireless-2010-06-28.tar.bz2
