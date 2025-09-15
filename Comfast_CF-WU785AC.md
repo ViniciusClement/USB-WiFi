@@ -70,10 +70,38 @@ cd mt7612u
 make
 sudo make install
 sudo modprobe mt7612u
+```
 
+```
+apt-get update && apt-get upgrade -y
+apt-get dist-upgrade -y
+reboot now
+sudo apt-get install linux-headers-amd64 build-essential make git dkms bc
+sudo apt install -y linux-headers-6.12.38+kali-amd64
+sudo apt install -y build-essential dkms git
+
+
+cd /usr/src
+sudo git clone https://github.com/aircrack-ng/rtl8812au.git
+cd rtl8812au
+sudo make dkms_install
+make && make install
+
+
+sudo update-initramfs -u
+
+sudo modprobe 8812au || sudo modprobe 8814au || true
+
+# Verificar interfaces
+ip link show
+
+# Mensagens do kernel relacionadas ao driver
+dmesg | grep -i 8812 -A5
+dmesg | grep -i rtl -A5
 
 
 ```
+
 
 ## Configuration
 
