@@ -3,7 +3,41 @@
 * https://www.reddit.com/r/linux4noobs/comments/14cupwn/wireless_wifi_adapters_100_linux_compatible/
 
 * https://oemdrivers.com/network-comfast-cf-wu785ac
-* 
+
+
+## Building
+
+```
+┌──(root㉿kali)-[/opt/DPO]
+└─# make -C os/linux/
+
+┌──(root㉿kali)-[/opt/DPO]
+└─# make 
+
+┌──(root㉿kali)-[/opt/DPO]
+└─# sudo apt update
+sudo apt install firmware-misc-nonfree
+sudo modprobe mt76x2u
+
+
+┌──(root㉿kali)-[/opt/DPO]
+└─# sudo apt update
+sudo apt install firmware-misc-nonfree
+sudo modprobe mt76x2u
+
+
+######## Alternative
+
+git clone https://github.com/ulli-kroll/mt7612u.git
+cd mt7612u
+make
+sudo make install
+sudo modprobe mt7612u
+
+
+
+```
+
 ## Configuration
 
 ```
