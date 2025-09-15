@@ -14,6 +14,14 @@ cd compat-wireless-2010-06-28
 make load 
 ```
 
+## Alternative
+```
+sudo apt update
+sudo apt install firmware-misc-nonfree
+sudo modprobe mt76x2u
+
+```
+
 ## Building
 
 ```
