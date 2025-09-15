@@ -6,6 +6,8 @@
 
 * https://www.kali.org/docs/nethunter/wireless-cards/
 
+* https://www.youtube.com/watch?v=hEXwOkyYNL0
+
 ## Oficial Link
 ```
 https://en.comfast.com.cn/index.php?m=content&c=index&a=show&catid=30&id=429
