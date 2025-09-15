@@ -4,6 +4,15 @@
 
 * https://oemdrivers.com/network-comfast-cf-wu785ac
 
+## Install wireless-adapter
+
+* https://mirror2.openwrt.org/sources/compat-wireless-2010-06-28.tar.bz2
+```
+bzip2 -dfv compat-wireless-2010-06-28.tar.bz2
+tar -xf compat-wireless-2010-06-28.tar
+cd compat-wireless-2010-06-28
+make load 
+```
 
 ## Building
 
