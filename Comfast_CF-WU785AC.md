@@ -6,6 +6,8 @@
 
 * https://www.kali.org/docs/nethunter/wireless-cards/
 
+## Kali Linux WiFi Alfa Adapter Fix
+
 * https://www.youtube.com/watch?v=hEXwOkyYNL0
 
 ## Oficial Link
